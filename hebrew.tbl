@@ -1,0 +1,57 @@
+// -*- mode: fundamental; encoding: utf-8; -*_
+//
+// This file is part of libtransliterate
+//
+// Copyright 2012 by Diedrich Vorberg <diedrich@tux4web.de>
+//
+// All Rights Reserved.
+//
+// For more Information on orm see the README and LICENSE file.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+// CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+// INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+// DISCLAIMED.
+
+// These codes follow the TLG Beta Code Quick Reference Guide
+// July 16, 2009. 
+//
+// o Syntax: Everything after // is ignored.
+// o Empty lines are ignored
+// o Everything else must be <code> <code point>
+//
+// Code points are hexadecimals.
+//
+// Trailing underscores (_) will be interpreted as "end of word or end of
+// input" to allow "final" versions of letters. If you want a literal
+// trailing underscore, use two (__). This is only for *trailing*
+// underscores.
+
+A 05D0 // א
+a 05E2 // ע
+b 05D1 // ב
+d 05D3 // ד
+g 05D2 // ג
+h 05D4 // ה
+H 05D7 // ח
+k1 05DB // כ
+k2 05DA // ך
+l 05DC // ל
+m1 05DE // מ
+m2 05DD // ם
+n1 05E0 // נ
+n2 05DF // ן
+p1 05E4 // פ
+p2 05E3 // ף
+Q 05D8 // ט
+q 05E7 // ק
+r 05E8 // ר
+S 05E1 // ס
+s 05E9 // ש
+t 05EA // ת
+T1 05E6 // צ
+T2 05E5 // ץ
+v 05D5 // ו 
+y 05D9 // י 
+z 05D6 // Zayin
