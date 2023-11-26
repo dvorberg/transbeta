@@ -43,7 +43,7 @@ transliterate = Extension( "transliterate",
                                     "transliteratemodule.cxx",],
                            include_dirs = include_dirs,
                            library_dirs = library_dirs,
-                           libraries = ["transliterate",])
+                           libraries = [])
 
 setup (name = "transliterate",
        version = "0.1",
