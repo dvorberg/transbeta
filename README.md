@@ -7,9 +7,9 @@ This library converts “transliterated” representations of non-English
 languages, like TLG's Beta Code, to unicode. Supported
 transliterations are:
 
-o The Thesaurus Linguae Graecae’s Beta Code for Polytonic Greek,
+- The Thesaurus Linguae Graecae’s Beta Code for Polytonic Greek,
   Hebrew and Coptic. 
-o cjhebrew transliteration from the LaTeX package by that name
+- cjhebrew transliteration from the LaTeX package by that name
 
 I don’t know much about Coptic, so the functions for that language
 remain untested. The Beta Code representation for Hebrew does not
