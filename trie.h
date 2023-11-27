@@ -104,7 +104,8 @@ protected:
         }
 
         void finalize() {
-            // if (children != NULL) delete children;
+            if (children != NULL) delete children;
+            children = NULL;
             
             childcount = 0;
             for (node *p = child; p != NULL; p = p->sibling)
@@ -234,7 +235,7 @@ public:
 
     virtual size_t process(key_char_type *input,
                            value_char_type *output_buffer,
-                           int buffer_size) {        
+                           size_t buffer_size) {        
         value_char_type *ret_p = output_buffer;
         size_t length = 0;
 
