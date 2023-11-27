@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*~
+
+virtualenv
+virtualenv.nosync.noindex
 
 # C extensions
 *.so
