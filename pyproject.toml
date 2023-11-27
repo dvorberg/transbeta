@@ -1,0 +1,29 @@
+[project]
+name="transliterate-betacode"
+version="0.2"
+authors = [
+  { name="Diedrich Vorberg", email="diedrich@tux4web.de" },
+]
+description="Python module written in C++ to convert transliterated representation of ancient languages to unicode (TLG's beta code and LaTeX cjhebrew markup)"
+readme="README.md"
+
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: Linux"
+]
+
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["transliterate_betacode"]  # ["*"] by default
+
+[project.urls]
+"Homepage" = "https://github.com/dvorberg/transliterate-betacode"
+
+[build-system]
+requires = ["setuptools>=61.0",]
+build-backend = "setuptools.build_meta"
