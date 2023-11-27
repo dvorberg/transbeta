@@ -16,12 +16,12 @@
 ## DISCLAIMED.
 
 """
-setup.py file for libtransliterate_unicode
+setup.py file for transbeta
 """
 
 from distutils.core import setup, Extension
 
-name = "transliterate_betacode"
+name = "transbeta"
 
 transliterate = Extension( name,
                            sources=["betacode_coptic.cxx",
@@ -29,12 +29,12 @@ transliterate = Extension( name,
                                     "betacode_hebrew.cxx",
                                     "cjhebrew.cxx",
                                     "code_tables.cxx",
-                                    "transliteratemodule.cxx",],
-                           libraries = [])
+                                    "transbetamodule.cxx",])
 
 setup (name = name,
        version = "0.2",
        author      = "Diedrich Vorberg <diedrich@tux4web.de>",
        description = "Python module written in C++ to convert transliterated representation of ancient languages to unicode (TLG's beta code and LaTeX cjhebrew markup)",
        ext_modules = [ transliterate ],
-       py_modules = [ name ], )
+       py_modules = [ name ],
+       package_data={name: ["*.h", "*.inc"]})
