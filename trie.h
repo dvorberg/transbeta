@@ -268,7 +268,7 @@ public:
                 }
             }
             
-            int to_append = 0;
+            size_t to_append = 0;
             for (value_char_type *q = append; *q != 0; q++)
             {
                 to_append++;
